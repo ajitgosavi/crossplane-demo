@@ -1,7 +1,7 @@
 apiVersion: s3.aws.upbound.io/v1beta1
 kind: Bucket
 metadata:
-  name: ajit-test-bucket-1234
+  name: ajit-test-bucket-1234 ## Change bucket name to unique one, otherwise it will give an error.
 spec:
   forProvider:
     region: eu-central-1
