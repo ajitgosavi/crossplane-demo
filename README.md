@@ -10,7 +10,7 @@ Before installing Crossplane, ensure the following prerequisites are met:
 
 1. **Kubernetes Cluster**:
    - A running Kubernetes cluster (v1.21 or newer is recommended).
-   - Tools like Minikube, Kind, or a cloud-based Kubernetes service (e.g., GKE, EKS, AKS) can be used.
+   - Tools like Minikube, Rancher Desktop, Kind, or a cloud-based Kubernetes service (e.g., GKE, EKS, AKS) can be used.
 
 2. **kubectl**:
    - Install `kubectl`, the Kubernetes CLI, to interact with the cluster.
