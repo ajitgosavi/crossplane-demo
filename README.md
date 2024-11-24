@@ -61,7 +61,7 @@ crossplane-rbac-manager-xxxxxx-xxxxxx     1/1     Running   0          xxm
 Crossplane requires providers to manage external resources. 
 1. To install a aws provider, use the following steps:
 ```bash
-kubectl apply -f provider/aws-s3-provider.yml
+kubectl apply -f aws-s3-provider.yml
 ```
 2. Verify the provider installation:
 ```bash
@@ -80,7 +80,7 @@ kubectl create secret generic aws-creds -n crossplane-system --from-file=creds=a
 
 Providers often include custom resource definitions (CRDs) to manage resources. After installing a provider, ensure its CRDs are installed:
 ```bash
-kubectl apply -f provider-config/provider-config.yml
+kubectl apply -f provider-config.yml
 ```
 
 ### Step 6: Verify Crossplane Setup
@@ -92,7 +92,7 @@ To confirm Crossplane is properly configured, ensure the following:
 ### Step 7: Create s3 bucket
 
 ```bash
-kubectl apply -f aws-resources/s3.yml
+kubectl apply -f s3.yml
 ```
 You can also verify created bucket in AWS console.
 
