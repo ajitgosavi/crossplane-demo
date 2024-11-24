@@ -24,7 +24,7 @@ Before installing Crossplane, ensure the following prerequisites are met:
    - Ensure you have administrative access to the Kubernetes cluster.
      
 5. **AWS CLI Configuration**:
-   - Ensure you have AWS CLI configured on your local machine.
+   - Ensure you have AWS CLI configured on your local machine with proper keys. Only one access key must be present.
 ---
 
 ## Installation
